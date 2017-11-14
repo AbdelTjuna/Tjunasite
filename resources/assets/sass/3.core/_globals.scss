@@ -1,0 +1,53 @@
+/*------------------------------------*\
+  #GLOBAL STYLES
+\*------------------------------------*/
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	@include mq-mobile {
+		font-size: 56%;
+	}
+}
+
+::selection{
+	background: $color-tertiary;
+	text-shadow: $text-shadow-sm;
+	color: #fff;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	background: #EAEAEA;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $color-main;
+}
+
+// img reset
+img{
+	max-width: 100%;
+  height: auto;
+}
+
+// basic hr
+hr, .hr{
+	display: block;
+	height: .1rem;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+figure{
+	margin: 0;
+}

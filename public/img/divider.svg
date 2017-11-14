@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" style="
+    position: absolute;
+    z-index: 20;
+    height: 78vh;
+    /* bottom: 6px; */
+    width: 100%;
+    transform: rotate(180deg);">
+    <polygon points="0,100 100,0 100,100" fill="white"></polygon>
+
+</svg>
