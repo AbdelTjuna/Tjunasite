@@ -7,7 +7,6 @@
     <title>Laravel</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
 
@@ -139,9 +138,9 @@
 
 <div class="client__container">
     <div class="wrap">
-        <div class="loyalty">
+        <div class="expertise">
             <h1>Onze trouwe klanten, groot en klein.</h1>
-            <p class="loyalty-subtitle"><span>Al jaren staan we klaar voor klanten</span></p>
+            <p class="expertise-subtitle"><span>Al jaren staan we klaar voor klanten</span></p>
             <p>Wij werken  nauw samen met onze klanten en opdrachtgevers om het beste uit een concept te halen. Wij zijn trots op onze partners. We halen daar veel voldoening en plezier uit.<br> Benieuwd naar onze cases?</p>
         <a class="btn" href="">cases →</a>
     </div>
@@ -166,7 +165,7 @@
 <div class="end__container">
     <div class="wrap">
         <div class="question-text">
-            <h1>Gaaf idee voor een nieuw project?</h1>
+            <h1>Gaaf idee voor<br> een nieuw project?</h1>
             <p>Neem contact op met Vincent en vraag hem het hemd van het lijf, vindt ie leuk!</p>
         </div>
 
@@ -190,6 +189,41 @@
 
 
 <footer class="footer">
+    <div class="wrap">
+
+        <div class="path">
+        </div>
+
+        <div class="footer__logo">
+            <a href="#"><img src="{{URL::asset("img/tjuna-logo.svg")}}"></a>
+        </div>
+
+        <div class="footer__content">
+
+            <div class="footer__content-main">
+                <p>Tappersweg 12 W</p>
+                <p>2031 ET, Haarlem</p>
+                <p>023 - 525 91 02</p>
+                <p>info@tjuna.com</p>
+            </div>
+
+            <div class="footer__content-legal">
+                <p>2017 &copy; Tjuna. All rights reserved.</p>
+                <a href="#">KVK / BTW / Algemene voorwaarden</a>
+            </div>
+
+            <div class="footer__content-social">
+                <a href="#"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                <a href="#"> <i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="#"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
 
 </footer>
 

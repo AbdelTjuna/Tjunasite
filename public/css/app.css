@@ -1091,14 +1091,6 @@ a.sp-video:after {
   -o-transition: none;
 }
 
-.slider-pro a {
-  position: static;
-  transition: none !important;
-  -moz-transition: none !important;
-  -webkit-transition: none !important;
-  -o-transition: none !important;
-}
-
 .slider-pro iframe,
 .slider-pro object,
 .slider-pro video,
@@ -1746,8 +1738,10 @@ tr:after:last-child {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 388px 388px 0 0;
-  border-color: #007bff transparent transparent transparent;
+  border-width: 800px 1635px 0 0;
+  border-color: white transparent transparent transparent;
+  left: 270px;
+  top: 56px;
 }
 
 .case__container .case-content {
@@ -1817,12 +1811,16 @@ tr:after:last-child {
 
 .case__container .sp-thumbnail h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 46px;
 }
 
 .case__container .sp-thumbnail p {
   font-size: 22px;
   margin: 0;
+}
+
+.case__container .sp-thumbnail a {
+  z-index: 15;
 }
 
 .case__container .sp-thumbnail .number-background {
@@ -1891,8 +1889,8 @@ tr:after:last-child {
 
 .projects__container .wrap .expertise {
   width: 400px;
-  margin-right: 150px;
   text-align: right;
+  margin: 100px;
 }
 
 .projects__container .wrap .text-selection {
@@ -1908,6 +1906,7 @@ tr:after:last-child {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #1C4459;
+  margin: 100px;
 }
 
 .projects__container .wrap .accordion {
@@ -1943,22 +1942,21 @@ tr:after:last-child {
   padding-bottom: 230px;
 }
 
-.client__container .loyalty {
+.client__container .expertise {
   width: 400px;
-  margin-top: 80px;
-  margin-left: 5%;
+  margin: 100px;
 }
 
-.client__container .loyalty p.loyalty-subtitle {
+.client__container .expertise p.expertise-subtitle {
   position: relative;
   margin-left: 80px;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 10px;
   letter-spacing: 2.5px;
   z-index: 1;
 }
 
-.client__container .loyalty p::before {
+.client__container .expertise p::before {
   border-top: 1px solid #1C4459;
   content: "";
   position: absolute;
@@ -1968,12 +1966,12 @@ tr:after:last-child {
   z-index: -1;
 }
 
-.client__container .loyalty p span {
+.client__container .expertise p span {
   font-weight: 800;
   background: transparent;
 }
 
-.client__container .loyalty p {
+.client__container .expertise p {
   line-height: 2;
 }
 
@@ -2137,5 +2135,91 @@ tr:after:last-child {
 
 .end__container .wrap .business-card .business-card-data p {
   margin: 0;
+}
+
+.footer {
+  background: #204458;
+  color: white;
+}
+
+.footer .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.footer .path {
+  content: '';
+  position: absolute;
+  background: white;
+  height: 50px;
+  width: 50px;
+}
+
+.footer .path::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 200px 200px;
+  border-color: transparent transparent white transparent;
+}
+
+.footer__logo {
+  width: 6em;
+  background: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+}
+
+.footer__content {
+  padding-top: 70px;
+}
+
+.footer__content-main,
+.footer__content-legal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer__content-main p,
+.footer__content-legal p {
+  padding-right: 70px;
+}
+
+.footer__content-legal {
+  -webkit-box-pack: right !important;
+      -ms-flex-pack: right !important;
+          justify-content: right !important;
+  justify-self: right !important;
+  width: 635px;
+  font-size: 15px;
+}
+
+.footer__content-legal p {
+  padding-right: 30px !important;
+}
+
+.footer__content-social {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: absolute;
 }
 

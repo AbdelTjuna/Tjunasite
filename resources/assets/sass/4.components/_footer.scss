@@ -1,0 +1,72 @@
+.footer {
+  background: #204458;
+  color: white;
+
+  .wrap {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    height: 200px;
+  }
+
+  .path {
+    content: '';
+    position: absolute;
+    background: white;
+    height: 50px;
+    width: 50px;
+  }
+
+  .path::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 200px 200px;
+    border-color: transparent transparent white transparent;
+
+  }
+
+  &__logo {
+    width: 6em;
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+  }
+
+  &__content {
+    padding-top: 70px;
+
+    &-main, &-legal {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+
+      p {
+        padding-right: 70px;
+      }
+
+    }
+
+    &-legal {
+      justify-content: right !important;
+      justify-self: right !important;
+      width: 635px;
+      font-size: 15px;
+
+      p {
+        padding-right: 30px !important;
+      }
+    }
+
+    &-social {
+      align-self: flex-end;
+      position: absolute;
+    }
+  }
+
+
+}
