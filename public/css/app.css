@@ -2084,7 +2084,7 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
   width: 80%;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .end__container .wrap .business-card .business-card-name h2 {
@@ -2237,7 +2237,7 @@ body {
 .footer__content-social {
   position: absolute;
   left: 1500px;
-  top: 5057px;
+  top: 5143px;
 }
 
 .footer__content-social a {
