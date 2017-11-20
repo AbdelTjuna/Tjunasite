@@ -1685,6 +1685,11 @@ tr:after:last-child {
   width: 40px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .introduction__container {
   padding-bottom: 100px;
 }
@@ -2151,32 +2156,38 @@ tr:after:last-child {
       -ms-flex-flow: column;
           flex-flow: column;
   margin: 0 auto;
-  height: 200px;
-}
-
-.footer .path {
-  content: '';
-  position: absolute;
-  background: white;
-  height: 50px;
-  width: 50px;
-}
-
-.footer .path::after {
-  content: '';
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 200px 200px;
-  border-color: transparent transparent white transparent;
+  height: 205px;
 }
 
 .footer__logo {
-  width: 6em;
+  width: 15em;
+  height: 12em;
   background: white;
   padding-top: 30px;
   padding-bottom: 30px;
   position: absolute;
+}
+
+.footer__logo img {
+  width: 6em;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 70px;
+}
+
+.footer__logo::after {
+  content: "";
+  position: absolute;
+  width: 37px;
+  border-style: solid;
+  top: 0px;
+  left: 226px;
+  border-width: 204px 78px 0 0;
+  border-color: white transparent transparent transparent;
+  color: white;
 }
 
 .footer__content {
@@ -2201,7 +2212,7 @@ tr:after:last-child {
 
 .footer__content-main p,
 .footer__content-legal p {
-  padding-right: 70px;
+  padding-right: 30px;
 }
 
 .footer__content-legal {
@@ -2211,6 +2222,11 @@ tr:after:last-child {
   justify-self: right !important;
   width: 635px;
   font-size: 15px;
+  margin-left: 805px;
+}
+
+.footer__content-legal a {
+  color: white;
 }
 
 .footer__content-legal p {
@@ -2218,8 +2234,38 @@ tr:after:last-child {
 }
 
 .footer__content-social {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
   position: absolute;
+  left: 1500px;
+  top: 5057px;
+}
+
+.footer__content-social a {
+  margin-right: 20px;
+}
+
+.footer__content-social a:hover,
+.footer__content-social i:hover {
+  color: #1C4459;
+  border-color: #1C4459;
+}
+
+.footer__content-social i {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.footer__content-social .fa-2x {
+  text-align: center;
+  color: white;
+  top: 30px;
+  left: 30px;
+  border: 3px solid white;
+  padding: 10px;
+  padding-left: 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
 

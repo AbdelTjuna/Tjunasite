@@ -191,9 +191,6 @@
 <footer class="footer">
     <div class="wrap">
 
-        <div class="path">
-        </div>
-
         <div class="footer__logo">
             <a href="#"><img src="{{URL::asset("img/tjuna-logo.svg")}}"></a>
         </div>
@@ -202,8 +199,11 @@
 
             <div class="footer__content-main">
                 <p>Tappersweg 12 W</p>
+                <p>></p>
                 <p>2031 ET, Haarlem</p>
+                <p>></p>
                 <p>023 - 525 91 02</p>
+                <p>></p>
                 <p>info@tjuna.com</p>
             </div>
 
@@ -218,11 +218,6 @@
                 <a href="#"> <i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
             </div>
         </div>
-
-
-
-
-
     </div>
 
 </footer>
