@@ -16,7 +16,7 @@
     <div class="wrap">
         <div class="header__main">
             <div class="header__main-logo">
-                <a href="#"><img src="{{URL::asset("img/tjuna-logo.svg")}}"></a>
+                <a href="#"><figure><img src="{{URL::asset("img/tjuna-logo.svg")}}"></figure></a>
             </div>
 
 
@@ -166,7 +166,7 @@
     <div class="wrap">
         <div class="question-text">
             <h1>Gaaf idee voor<br> een nieuw project?</h1>
-            <p>Neem contact op met Vincent en vraag hem het hemd van het lijf, vindt ie leuk!</p>
+            <p>Neem contact op met Vincent en vraag hem<br> het hemd van het lijf, vindt ie leuk!</p>
         </div>
 
         <img src="{{URL::asset("img/vincent1.png")}}"/>
