@@ -21,18 +21,31 @@
 
 
             <div class="header__main__menu">
+                <a href="javascript:void(0)" class="hamburger">
                 <div class="header__main__menu-icons">
-                    <a href="#">
-                        <span class="menu-icon-1"></span>
-                        <span class="menu-icon-2"></span>
-                        <span class="menu-icon-3"></span>
-                    </a>
+                        <div class="hamburger__icon">
+                            <span class="menu-icon-1"></span>
+                            <span class="menu-icon-2"></span>
+                            <span class="menu-icon-3"></span>
+                        </div>
                 </div>
+                </a>
             </div>
         </div>
     </div>
 </header>
 
+
+<div class="fat-nav">
+    <div class="fat-nav__wrapper">
+        <ul>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+            <li><a href="#">Menu item</a></li>
+        </ul>
+    </div>
+</div>
 
 <div class="introduction__container">
     <div class="wrap">
@@ -189,6 +202,7 @@
 
 
 <footer class="footer">
+
     <div class="wrap">
 
         <div class="footer__logo">
@@ -227,6 +241,7 @@
 <script src="js/jquery.accordion.js"></script>
 <script src="https://use.fontawesome.com/e0321a2a4b.js"></script>
 <script src="js/jquery.sliderPro.min.js"></script>
+<script src="js/jquery.fatNav.js"></script>
 <script src="js/init.js"></script>
 </body>
 
