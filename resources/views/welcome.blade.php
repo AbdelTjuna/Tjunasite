@@ -223,7 +223,7 @@
 
             <div class="footer__content-legal">
                 <p>2017 &copy; Tjuna. All rights reserved.</p>
-                <a href="#">KVK / BTW / Algemene voorwaarden</a>
+                <a href="/terms">KVK / BTW / Algemene voorwaarden</a>
             </div>
 
             <div class="footer__content-social">
