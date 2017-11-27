@@ -1746,6 +1746,10 @@ tr:after:last-child {
   width: 6em;
 }
 
+.header__main-logo figure {
+  margin: 0 !important;
+}
+
 .header__main__menu-icons {
   height: 50px;
   width: 50px;
@@ -2126,8 +2130,8 @@ body {
 
 .end__container .wrap .question-text {
   position: absolute;
-  left: 300px;
-  top: 4315px;
+  left: 222px;
+  top: 4390px;
   width: 25%;
   text-align: right;
   font-size: 21px;
@@ -2138,16 +2142,15 @@ body {
 }
 
 .end__container .wrap img {
-  width: 30%;
-  position: relative;
+  width: 77%;
   z-index: -5;
 }
 
 .end__container .wrap .business-card {
   height: 225px;
-  left: 375px;
+  left: 304px;
   bottom: 80px;
-  top: 4630px;
+  top: 4675px;
   width: 400px;
   background: #34B8C9;
   position: absolute;
@@ -2169,6 +2172,10 @@ body {
   color: white;
   -webkit-transition: 0.01s all ease-in-out;
   transition: 0.01s all ease-in-out;
+}
+
+.end__container .wrap .business-card h2 {
+  font-family: proxima-regular;
 }
 
 .end__container .wrap .business-card .business-card-name {
@@ -2379,6 +2386,10 @@ body {
   position: absolute;
 }
 
+.footer__logo figure {
+  margin: 0 !important;
+}
+
 .footer__logo img {
   width: 6em;
   position: absolute;
@@ -2433,7 +2444,7 @@ body {
   justify-self: right !important;
   width: 635px;
   font-size: 15px;
-  margin-left: 650px;
+  margin-left: 805px;
 }
 
 .footer__content-legal a {
@@ -2447,7 +2458,7 @@ body {
 .footer__content-social {
   position: absolute;
   left: 1500px;
-  top: 5143px;
+  top: 5200px;
 }
 
 .footer__content-social a {

@@ -289,8 +289,8 @@ body {
     
     .question-text {
       position: absolute;
-      left: 300px;
-      top: 4315px;
+      left: 222px;
+      top: 4390px;
       width: 25%;
       text-align: right;
       font-size: 21px;
@@ -302,16 +302,15 @@ body {
     }
 
     img {
-      width: 30%;
-      position: relative;
+      width: 77%;
       z-index: -5;
     }
 
     .business-card {
       height: 225px;
-      left: 375px;
+      left: 304px;
       bottom: 80px;
-      top: 4630px;
+      top: 4675px;
       width: 400px;
       background: #34B8C9;
       position: absolute;
@@ -323,6 +322,10 @@ body {
       h2, a {
         color: white;
         transition: 0.01s all ease-in-out;
+      }
+
+      h2 {
+        font-family: proxima-regular;
       }
 
 

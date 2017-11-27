@@ -17,6 +17,10 @@
     padding-bottom: 30px;
     position: absolute;
 
+    figure {
+      margin: 0 !important;
+    }
+
       img {
         width: 6em;
         position: absolute;
@@ -62,7 +66,7 @@
       justify-self: right !important;
       width: 635px;
       font-size: 15px;
-      margin-left: 650px;
+      margin-left: 805px;
 
       a {
         color: white;
@@ -76,7 +80,7 @@
     &-social {
       position: absolute;
       left: 1500px;
-      top: 5143px;
+      top: 5200px;
 
       a {
         margin-right: 20px;
