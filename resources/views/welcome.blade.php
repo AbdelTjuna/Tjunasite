@@ -90,7 +90,7 @@
                 <h2>Ziggo</h2>
                 <p>Ben zelf meer een KPN fan, ze zijn namelijk wat stabieler. </p>
 
-                <a href="" class="btn">
+                <a href="#" class="btn">
                     <p>meer →</p>
                 </a>
 
@@ -145,7 +145,7 @@
                 </div>
             </div>
         </div>
-</div>
+    </div>
 </div>
 
 

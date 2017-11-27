@@ -2360,6 +2360,187 @@ body {
   margin-left: 35px;
 }
 
+.panel__container {
+  width: 100%;
+  height: 100%;
+}
+
+.panel__container .wrap {
+  margin: auto;
+}
+
+.panel__container i {
+  position: absolute;
+  color: white;
+  top: 650px;
+}
+
+.panel__container h2,
+.panel__container p {
+  position: relative;
+  color: white;
+}
+
+.panel__container p {
+  font-family: proxima-regular;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.panel__container h2 {
+  font-size: 35px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+
+.panel__container-panels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.panel__container-panels-1 {
+  background: url("/img/schrijverscentrale.png");
+  width: 700px;
+  height: 750px;
+  position: relative;
+  display: grid;
+}
+
+.panel__container-panels-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  opacity: 0.9;
+  bottom: 0;
+  height: 750px;
+  z-index: 0;
+  width: 637px;
+  background: #295978;
+  -webkit-transition: opacity ease-in-out;
+  transition: opacity ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.panel__container-panels-1:hover::before {
+  opacity: 0.5;
+}
+
+.panel__container-panels-2 {
+  background-image: url("/img/qurrent.jpg");
+  width: 700px;
+  height: 750px;
+  align-self: center;
+  position: relative;
+  display: grid;
+}
+
+.panel__container-panels-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  opacity: 0.9;
+  bottom: 0;
+  height: 750px;
+  z-index: 0;
+  width: 637px;
+  background: #3694A3;
+  -webkit-transition: opacity ease-in-out;
+  transition: opacity ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.panel__container-panels-2:hover::before {
+  opacity: 0.5;
+}
+
+.panel__container-panels-3 {
+  background-image: url("/img/groeiapp.png");
+  justify-self: flex-end;
+  width: 701px;
+  height: 750px;
+  margin-top: 150px;
+  position: relative;
+  display: grid;
+}
+
+.panel__container-panels-3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  opacity: 0.9;
+  bottom: 0;
+  height: 750px;
+  z-index: 0;
+  width: 637px;
+  background: #416B70;
+  -webkit-transition: opacity ease-in-out;
+  transition: opacity ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.panel__container-panels-3:hover::before {
+  opacity: 0.5;
+}
+
+.midtext__container .expertise .wrap {
+  width: 55%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+
+.midtext__container .expertise .wrap h1 {
+  color: #1C4459;
+  font-family: 'bitter-regular';
+}
+
+.midtext__container .expertise .wrap p.expertise-subtitle {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  z-index: 1;
+}
+
+.midtext__container .expertise .wrap p::before {
+  border-top: 1px solid #1C4459;
+  content: "";
+  position: absolute;
+  width: 50px;
+  top: 10px;
+  left: -80px;
+  z-index: -1;
+}
+
+.midtext__container .expertise .wrap p:last-of-type {
+  width: 500px;
+}
+
 .footer {
   background: #204458;
   color: white;

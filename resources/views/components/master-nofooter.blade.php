@@ -10,8 +10,6 @@
     @yield ('content')
 
     @include('components.vendors')
-
-    @include('components.footer')
 </body>
 
 </html>
