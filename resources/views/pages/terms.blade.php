@@ -8,7 +8,7 @@
         <div class="wrap">
 
         <div class="terms__container-background">
-            <img src="{{URL::asset("img/termsbackground.jpg")}}"/>
+            <figure><img src="{{URL::asset("img/termsbackground.jpg")}}"/></figure>
         </div>
 
         <div class="terms__container-download">

@@ -99,15 +99,15 @@
 
         <div class="sp-slides">
             <div class="sp-slide">
-                <img class="sp-image" src="{{URL::asset("img/placeholder3.jpg")}}"/>
+                <figure><img class="sp-image" src="{{URL::asset("img/placeholder3.jpg")}}"/></figure>
             </div>
 
             <div class="sp-slide">
-                <img class="sp-image" src="{{URL::asset("img/placeholder1.jpg")}}"/>
+                <figure><img class="sp-image" src="{{URL::asset("img/placeholder1.jpg")}}"/></figure>
             </div>
 
             <div class="sp-slide">
-                <img class="sp-image" src="{{URL::asset("img/placeholder2.jpg")}}"/>
+                <figure><img class="sp-image" src="{{URL::asset("img/placeholder2.jpg")}}"/></figure>
             </div>
         </div>
     </div>
@@ -159,18 +159,18 @@
     </div>
 
         <div class="client-logos">
-            <img class="top-row" src="{{URL::asset("img/sass.svg")}}"/>
-            <img class="top-row" src="{{URL::asset("img/laravel.svg")}}"/>
-            <img class="top-row" src="{{URL::asset("img/volkswagen.svg")}}"/>
-            <img src="{{URL::asset("img/ziggo.svg")}}"/>
-            <img src="{{URL::asset("img/sass.svg")}}"/>
-            <img src="{{URL::asset("img/laravel.svg")}}"/>
-            <img src="{{URL::asset("img/volkswagen.svg")}}"/>
-            <img src="{{URL::asset("img/ziggo.svg")}}"/>
-            <img src="{{URL::asset("img/sass.svg")}}"/>
-            <img src="{{URL::asset("img/laravel.svg")}}"/>
-            <img src="{{URL::asset("img/volkswagen.svg")}}"/>
-            <img src="{{URL::asset("img/ziggo.svg")}}" />
+            <figure><img class="top-row" src="{{URL::asset("img/sass.svg")}}"/></figure>
+            <figure><img class="top-row" src="{{URL::asset("img/laravel.svg")}}"/></figure>
+            <figure><img class="top-row" src="{{URL::asset("img/volkswagen.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/ziggo.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/sass.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/laravel.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/volkswagen.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/ziggo.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/sass.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/laravel.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/volkswagen.svg")}}"/></figure>
+            <figure><img src="{{URL::asset("img/ziggo.svg")}}" /></figure>
         </div>
 </div>
 </div>
@@ -182,7 +182,7 @@
             <p>Neem contact op met Vincent en vraag hem<br> het hemd van het lijf, vindt ie leuk!</p>
         </div>
 
-        <img src="{{URL::asset("img/vincent1.png")}}"/>
+        <figure><img src="{{URL::asset("img/vincent1.png")}}"/></figure>
 
         <div class="business-card">
             <a href="#"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
@@ -206,7 +206,7 @@
     <div class="wrap">
 
         <div class="footer__logo">
-            <a href="#"><img src="{{URL::asset("img/tjuna-logo.svg")}}"></a>
+            <a href="#"><figure><img src="{{URL::asset("img/tjuna-logo.svg")}}"></figure></a>
         </div>
 
         <div class="footer__content">
