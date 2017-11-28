@@ -2112,7 +2112,6 @@ body {
 
 .end__container {
   padding-bottom: 300px;
-  padding-top: 300px;
 }
 
 .end__container .wrap {
@@ -2131,7 +2130,7 @@ body {
 .end__container .wrap .question-text {
   position: absolute;
   left: 222px;
-  top: 4390px;
+  top: 475%;
   width: 25%;
   text-align: right;
   font-size: 21px;
@@ -2149,8 +2148,7 @@ body {
 .end__container .wrap .business-card {
   height: 225px;
   left: 304px;
-  bottom: 80px;
-  top: 4675px;
+  top: 503%;
   width: 400px;
   background: #34B8C9;
   position: absolute;
@@ -2362,7 +2360,7 @@ body {
 
 .panel__container {
   width: 100%;
-  height: 100%;
+  height: 95%;
 }
 
 .panel__container .wrap {
@@ -2509,8 +2507,7 @@ body {
           flex-flow: column;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  padding-top: 80px;
-  padding-bottom: 130px;
+  padding-bottom: 100px;
 }
 
 .midtext__container .expertise .wrap h1 {
@@ -2538,7 +2535,127 @@ body {
 }
 
 .midtext__container .expertise .wrap p:last-of-type {
-  width: 500px;
+  width: 340px;
+}
+
+.midcase__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.midcase__container-panels-1,
+.midcase__container-panels-2 {
+  width: 625px;
+  height: 350px;
+  text-align: center;
+  background-color: grey;
+  display: grid;
+  margin: 35px;
+}
+
+.midcase__container-panels-1::before,
+.midcase__container-panels-2::before {
+  content: '';
+  position: absolute;
+  top: 2332px;
+  opacity: 0.9;
+  bottom: 0;
+  height: 350px;
+  z-index: 0;
+  width: 625px;
+  background: #1A3745;
+  -webkit-transition: opacity ease-in-out;
+  transition: opacity ease-in-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.midcase__container-panels-1 {
+  background-image: url("/img/moreziggo.png");
+}
+
+.midcase__container-panels-2 {
+  background-image: url("/img/ubachs.png");
+}
+
+.midcase__container .wrap {
+  margin: auto;
+  color: white;
+  position: relative;
+}
+
+.midcase__container .wrap h2,
+.midcase__container .wrap i {
+  color: white;
+}
+
+.midcase__container .wrap p {
+  font-family: proxima-regular;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.midcase__container-panels-1:hover::before,
+.midcase__container-panels-2:hover::before {
+  opacity: 0.5;
+}
+
+.idea__container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.idea__container .wrap {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.preview__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 100px;
+}
+
+.preview__container .wrap h1,
+.preview__container .wrap p,
+.preview__container .wrap a {
+  margin-left: 40px;
+}
+
+.preview__container .wrap .preview-button {
+  padding-bottom: 100px;
+}
+
+.preview__container .wrap .preview-button a {
+  color: #204458;
+  border-bottom: 1px solid #204458;
+}
+
+.preview__container .wrap .preview-button img {
+  width: 1em;
+}
+
+.preview__container .wrap .preview-button p {
+  display: inline;
+  margin-left: 15px;
 }
 
 .footer {
@@ -2594,7 +2711,7 @@ body {
 }
 
 .footer__content {
-  padding-top: 70px;
+  padding-top: 62px;
 }
 
 .footer__content-main,
@@ -2637,9 +2754,10 @@ body {
 }
 
 .footer__content-social {
-  position: absolute;
+  position: relative;
+  display: inline;
   left: 1500px;
-  top: 5200px;
+  bottom: 83px;
 }
 
 .footer__content-social a {
@@ -2648,8 +2766,8 @@ body {
 
 .footer__content-social a:hover,
 .footer__content-social i:hover {
-  color: #1C4459;
-  border-color: #1C4459;
+  color: #34B8C9;
+  border-color: #34B8C9;
 }
 
 .footer__content-social i {

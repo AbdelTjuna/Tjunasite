@@ -46,7 +46,7 @@
   }
 
   &__content {
-    padding-top: 70px;
+    padding-top: 62px;
 
     &-main, &-legal {
     display: flex;
@@ -78,9 +78,10 @@
     }
 
     &-social {
-      position: absolute;
+      position: relative;
+      display: inline;
       left: 1500px;
-      top: 5200px;
+      bottom: 83px;
 
       a {
         margin-right: 20px;
@@ -88,8 +89,8 @@
 
 
       a:hover, i:hover  {
-        color: #1C4459;
-        border-color: #1C4459;
+        color: #34B8C9;
+        border-color: #34B8C9;
       }
 
 
