@@ -9,7 +9,6 @@
 
     @yield ('content')
 
-    @include ('components.end')
 
     @include('components.vendors')
 

@@ -23,3 +23,10 @@ Route::get('/overview', function () {
     return view('pages/overview');
 });
 
+
+Route::get('/cases', function () {
+    return view('pages/cases');
+});
+
+
+

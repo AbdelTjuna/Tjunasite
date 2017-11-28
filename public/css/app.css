@@ -2640,22 +2640,22 @@ body {
   margin-left: 40px;
 }
 
-.preview__container .wrap .preview-button {
+.preview-button {
   padding-bottom: 100px;
 }
 
-.preview__container .wrap .preview-button a {
+.preview-button a {
   color: #204458;
   border-bottom: 1px solid #204458;
 }
 
-.preview__container .wrap .preview-button img {
+.preview-button img {
   width: 1em;
 }
 
-.preview__container .wrap .preview-button p {
+.preview-button p {
   display: inline;
-  margin-left: 15px;
+  margin-left: 10px !important;
 }
 
 .footer {
