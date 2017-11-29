@@ -18,9 +18,5 @@ jQuery(document).ready(function($) {
 
     $.fatNav();
 
-    $(document).on('keydown', function(e) {
-        if (e.keyCode === 27) { // ESC Key
-            $(".fat-nav").toggleClass('active'); //Change appearance of clickable icon
-        }
-    });
+
 });

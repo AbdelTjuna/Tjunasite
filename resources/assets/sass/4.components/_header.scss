@@ -1,5 +1,8 @@
 
 .header {
+  z-index: 1000;
+  position: relative;
+
   .wrap {
     width: 90%;
     margin: 4em auto;

@@ -2,7 +2,7 @@
     <div class="wrap">
         <div class="header__main">
             <div class="header__main-logo">
-                <a href="#"><figure><img src="{{URL::asset("img/tjuna-logo.svg")}}"></figure></a>
+                <a href="/"><figure><img src="{{URL::asset("img/tjuna-logo.svg")}}"></figure></a>
             </div>
 
 

@@ -83,3 +83,15 @@
    padding-top: ($height / $width) * 100%;
  }
 }
+
+@mixin article-title {
+  color: #1C4459;
+  font-weight: 100;
+}
+
+@mixin subtitle {
+    font-family: proxima-regular;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
