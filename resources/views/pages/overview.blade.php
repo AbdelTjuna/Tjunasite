@@ -26,13 +26,9 @@
                     <div class="wrap">
                         <p>Qurrent</p>
                         <h2>Kosten besparen <br> door een handige tool</h2>
-
                         <a href="#"><i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></a></i>
-
                     </div>
                 </div>
-
-
 
                 <div class="panel__container-panels-3">
                     <div class="wrap">
