@@ -19,4 +19,8 @@ jQuery(document).ready(function($) {
     $.fatNav();
 
 
+    $("div.header__main__menu-icons").click(function() {
+        $("div.header__main__menu-icons").toggleClass("active");
+    });
+
 });

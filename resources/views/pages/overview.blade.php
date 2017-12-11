@@ -2,7 +2,6 @@
 
 @section ('content')
 
-
     <div class="introduction__container">
         <div class="wrap">
             <h1>Een greep uit <strong>ons werk.</strong> Wij denken mee met <strong>onze klanten</strong> en zijn <strong>pro-actief</strong> in de <strong>oplossingen</strong> die wij aanbieden. </h1>
@@ -41,8 +40,11 @@
             </div>
     </div>
 
+    <div class="container">
 
-    <div class="midtext__container">
+
+
+    <section class="midtext__container">
         <div class="expertise">
             <div class="wrap">
                 <h1>Door het vuur <br> voor onze klanten.</h1>
@@ -50,27 +52,30 @@
                 <p>Wij werken nauw samen met onze klanten en opdrachtgevers om het beste uit een concept te halen. Wij zijn trots onze partners. We halen daar veel voldoening en plezier uit. Benieuwd naar onze cases?</p>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="midcase__container">
-            <div class="midcase__container-panels-1">
-                <div class="wrap">
-                    <p>Ziggo de uitdaging</p>
+    <section class="media media--col2">
+            <div class="media__panels">
+                <div class="media__panel media__panel--ziggo">
+                    <div class="media__panel-content">
+                    <p class="media__subtitle">Ziggo de uitdaging</p>
                     <h2>De uitdaging van <br> elke Ziggo medewerker</h2>
                     <a href="#"><i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i></a>
                 </div>
             </div>
+            </div>
 
-
-            <div class="midcase__container-panels-2">
-                <div class="wrap">
-                    <p>Het ei van ubachs</p>
+                <div class="media__panels">
+                    <div class="media__panel media__panel--ubachs">
+                        <div class="media__panel-content">
+                    <p class="media__subtitle">Het ei van ubachs</p>
                     <h2>Concept en ideeënplatform <br> voor Wim Ubachs</h2>
                     <a href="#"><i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i></a>
                 </div>
-        </div>
-    </div>
+                </div>
+                </div>
+    </section>
 
 
     <div class="idea__container">
@@ -80,56 +85,55 @@
         </div>
     </div>
 
-    <div class="preview__container">
-        <div class="preview__container-panel-1">
+    <section class="media media__articles">
+        <article class="media__article">
             <div class="wrap">
-                <figure><img src="{{URL::asset("img/hcv.png")}}" /></figure>
-                <h1>HCV</h1>
-                <p>Zelftests en informatie rond het HCV virus. HCV is een virus die <br> een infectie veroorzaakt bij de lever.</p>
+                <figure><img class="media__img" src="{{URL::asset("img/hcv.png")}}" /></figure>
+                <h1 class="media__title">HCV</h1>
+                <p class="media__paragraph">Zelftests en informatie rond het HCV virus. HCV is een virus die <br> een infectie veroorzaakt bij de lever.</p>
                 <div class="preview-button">
-                    <a href="#"><img src="{{URL::asset("img/logout.svg")}}" /><p>HCV</p></a>
+                    <a href="#"><img src="{{URL::asset("img/logout.svg")}}" />HCV</a>
                 </div>
             </div>
-        </div>
+        </article>
         
-        <div class="preview__container-panel-2">
+        <article class="media__article">
             <div class="wrap">
-                <figure><img src="{{URL::asset("img/olx.png")}}"/></figure>
-                <h1>Join OLX!</h1>
-                <p>Banenplatform voor de marktplaats van Zuid-Amerika. Ze groeien razendsnel <br> en hadden dus behoefte aan een social banenplatform. Dit maakte wij dus!</p>
+                <figure><img class="media__img" src="{{URL::asset("img/olx.png")}}"/></figure>
+                <h1 class="media__title">Join OLX!</h1>
+                <p class="media__paragraph">Banenplatform voor de marktplaats van Zuid-Amerika. Ze groeien razendsnel <br> en hadden dus behoefte aan een social banenplatform. Dit maakte wij dus!</p>
                 <div class="preview-button">
-                    <a href="#"><img src="{{URL::asset("img/logout.svg")}}" /><p>Join OLX</p></a>
+                    <a href="#"><img src="{{URL::asset("img/logout.svg")}}" />Join OLX</a>
                 </div>
             </div>
-        </div>
+        </article>
 
-        <div class="preview__container-panel-3">
+        <article class="media__article">
             <div class="wrap">
-                <figure><img src="{{URL::asset("img/dnp.png")}}"/></figure>
-                <h1>DNP Imagingcomm</h1>
-                <p>Bekend van onder andere de Japanse Yen print DNP bijna alles. Voor het <br> Europese concern bouwde wij hun multi-language site.</p>
+                <figure><img class="media__img" src="{{URL::asset("img/dnp.png")}}"/></figure>
+                <h1 class="media__title">DNP Imagingcomm</h1>
+                <p class="media__paragraph">Bekend van onder andere de Japanse Yen print DNP bijna alles. Voor het <br> Europese concern bouwde wij hun multi-language site.</p>
                 <div class="preview-button">
-                    <a href="#"><img src="{{URL::asset("img/logout.svg")}}" /><p>DNP Imaging</p></a>
+                    <a href="#"><img src="{{URL::asset("img/logout.svg")}}" />DNP Imaging</a>
                 </div>
             </div>
-        </div>
+        </article>
 
-        <div class="preview__container-panel-4">
+        <article class="media__article">
             <div class="wrap">
-                <figure><img src="{{URL::asset("img/annefrank.png")}}"/></figure>
-                <h1>Anne Frank in de klas</h1>
-                <p>In opdracht van TinQwise ontwikkelde <strong>Tjuna</strong> een speciale e-learning tool <br> voor de Anne Frank Stichting.</p>
+                <figure><img class="media__img" src="{{URL::asset("img/annefrank.png")}}"/></figure>
+                <h1 class="media__title">Anne Frank in de klas</h1>
+                <p class="media__paragraph">In opdracht van TinQwise ontwikkelde <strong>Tjuna</strong> een speciale e-learning tool <br> voor de Anne Frank Stichting.</p>
                 <div class="preview-button">
-                <a href="#"><img src="{{URL::asset("img/logout.svg")}}" /><p>Anne Frank</p></a>
+                <a href="#"><img src="{{URL::asset("img/logout.svg")}}" />Anne Frank</a>
                 </div>
-
             </div>
-        </div>
-
-
-
-
+        </article>
+    </section>
     </div>
+
+
+
 
 
 
